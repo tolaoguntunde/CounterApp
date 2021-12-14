@@ -22,6 +22,8 @@ else if(checkTarget.contains('reset')){
 }
     else if (count < 0){
         value.style.color = 'red';
+    }else{
+        value.style.color = '';
     }
 
 
