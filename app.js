@@ -17,17 +17,17 @@ else if(checkTarget.contains('reset')){
    count = 0;
    }
    value.innerText = count;
-   if (count > 0){
-    value.style.color = 'green';
+color()
 }
-    else if (count < 0){
-        value.style.color = 'red';
-    }else{
-        value.style.color = '';
+
+function color(){
+    if (count > 0){
+        value.style.color = 'green';
     }
-
-
+        else if (count < 0){
+            value.style.color = 'red';
+        }else{
+            value.style.color = '';
+        }
 }
-
-
    
